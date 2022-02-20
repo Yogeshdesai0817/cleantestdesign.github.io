@@ -62,6 +62,14 @@ a.active,a:hover{
 	display: none;
 }
 
+section{
+	background: url(b1.jpg);
+	background-size: cover;
+	position: relative;
+	min-height: 180vh;
+	display: flex;
+}
+
 @media (max-width: 952px){
 	label.log{
 	  font-size: 30px;
@@ -99,16 +107,21 @@ a.active,a:hover{
 		background: none;
 		color: #0082e6;
 	}
+	
 	#check:checked ~ ul{
 		left: 0;
 	}
+    .contact{
+		padding: 50px;
+	}
+	.container{
+		flex-direction:column;
+	}
+	.container .contactInfo{
+		margin-bottom: 40px;
+	}
 }
 
-section{
-	background: url(b1.jpg) no-repeat;
-	background-size: cover;
-	height: calc(100vh - 80px)
-}
 
 .contact{
 	position: relative;
@@ -182,4 +195,3 @@ section{
     color: #00bcd4;
 	font-weight: 300;
 }
-
