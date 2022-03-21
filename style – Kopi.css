@@ -17,10 +17,12 @@ nav{
 }
 
 label.log{
-  background: url(Everest.jpg);
-  line-height: 41px;  
-  padding: 2px 100px 150px 2px;
-  background-repeat: no-repeat;
+ color: white;	
+ font-size: 35px;
+ line-height: 80px;
+ padding: 0 100px;
+ font-weight: bold; 
+ background: url(Everest.jpg);
 }
 
 nav ul{
@@ -119,32 +121,6 @@ section{
 	.container .contactInfo{
 		margin-bottom: 40px;
 	}
-}
-
-
-.service{
-	position: relative;
-	min-height: 100vh;
-	padding: 50px 100px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: column;
-	background: url(b4.jpg);
-	background-size: cover;
-}
-
-
-.aboutus{
-	position: relative;
-	min-height: 100vh;
-	padding: 50px 100px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: column;
-	background: url(b5.jpg);
-	background-size: cover;
 }
 
 
